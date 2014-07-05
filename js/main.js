@@ -34,7 +34,7 @@ $(".refresh").click(function(e) {
 
 function createButton(obj, parentElement) {
 	var query = "#"+parentElement;
-	var html = "<a href='#' class='button'>"+obj[0].value+"</a>";
+	var html = "<button class='button'>"+obj[0].value+"</button>";
 	$(query).append(html);
 }
 
@@ -47,7 +47,7 @@ function createEditBox(obj, parentElement) {
 
 function loadAjaxObjects(wrapperElement) {
 	$("#"+wrapperElement).html("");
-	
+
 	var rest = new RestModel("");
 
 	rest.assignObjectUri("http://ec2-54-81-14-120.compute-1.amazonaws.com/api/dummyview");

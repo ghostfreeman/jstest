@@ -34,3 +34,7 @@ body, html {
 	display; inline-block;
 	margin: 5px;
 }
+
+#control-wrapper form#actions input[type=text] {
+	width: 84%;
+}
