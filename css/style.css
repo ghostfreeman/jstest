@@ -1,0 +1,36 @@
+/**
+ * Main Style
+ **/
+
+body, html {
+	font-family: "Ubuntu Sans", "Fruitger Sans", sans-serif;
+}
+
+#parent {
+
+}
+
+#control-wrapper {
+ width: 480px;
+ margin: 100px auto;
+}
+
+#control-wrapper .refresh {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 50px auto 0;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+
+#control-wrapper form#actions {
+	border: 3px solid #000;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+#control-wrapper form#actions * {
+	display; inline-block;
+	margin: 5px;
+}
